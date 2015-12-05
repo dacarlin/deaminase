@@ -1,0 +1,206 @@
+########################################
+# Program: merger
+# Rundate: Tue 29 Sep 2015 18:21:48
+# Commandline: merger
+#    -asequence reads/deaminase1bf_T7_Plate_Plate01_F03.seq
+#    -bsequence reads/deaminase1br_T7term_Plate_Plate01_F04.seq
+#    -sreverse2
+#    -outfile b.merger
+#    -outseq b.fasta
+# Align_format: simple
+# Report_file: b.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: deaminase1bf_T7
+# 2: deaminase1br_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1520
+# Identity:     964/1520 (63.4%)
+# Similarity:   941/1520 (61.9%)
+# Gaps:         314/1520 (20.7%)
+# Score: 3863.0
+# 
+#
+#=======================================
+
+deaminase1bf_      1 --------------------------------------------------      0
+                                                                       
+deaminase1br_   1375 nnnnnnnnnncnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnagnan   1326
+
+deaminase1bf_      1 --------------------------------------------------      0
+                                                                       
+deaminase1br_   1325 nnncannnnnnnnnnnnnnnnnnngnnnntnnnnnnngncnnnnnnnnnn   1276
+
+deaminase1bf_      1 --------------------------------------------------      0
+                                                                       
+deaminase1br_   1275 nnnntnnnnnnccgcnntttnnnnnnnnnnnnnnntnnnnnnnnccnnna   1226
+
+deaminase1bf_      1 ---------------nnnnnnnnnnnnnnccntctagannnttngtttaa     35
+                                                  .| |.....   .. ..|...
+deaminase1br_   1225 nnnnnnccccannnnggnnnnnnngggnnncattncccnnnnnanntnnn   1176
+
+deaminase1bf_     36 ctttaagaaggagatatacatatgatggcacagacaccggcatttgataa     85
+                     ...|........................................|.....
+deaminase1br_   1175 nnntnnttnnnnnnngnnnnnnnnnnnnnnnnnnnnnnnnnnnntnnntn   1126
+
+deaminase1bf_     86 accgaaagttgaactgcatgttcatctggatggtagcattaaaccggaaa    135
+                     ||||..| .|.|||..|...|......|...|......|  ||||||..|
+deaminase1br_   1125 accgnna-ntnaacgncnnntnnnnnggnnngnnnnnnt--aaccggnna   1079
+
+deaminase1bf_    136 ccattctgtattatggtcgtcgtcgtggtattgcactgcctgcaaataca    185
+                     .|..|.........||...|||..|||| ..||...||||||||||||||
+deaminase1br_   1078 nccnttnnnnnnnnggntntcgnngtgg-nntgnnntgcctgcaaataca   1030
+
+deaminase1bf_    186 gccgaaggtctgctgaatgttattggtatggataaaccgctgaccctgcc    235
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_   1029 gccgaaggtctgctgaatgttattggtatggataaaccgctgaccctgcc    980
+
+deaminase1bf_    236 ggattttctggcaaaatttgattattacatgcctgccattgcaggttgtc    285
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    979 ggantttctggcaaaatttgattattacatgcctgccattgcaggttgtc    930
+
+deaminase1bf_    286 gtgaagcaattaaacgtatcgcctatgaatttgtcgaaatgaaagccaaa    335
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    929 gtgaagcaattaaacgtatcgcctatgaatttgtcgaaatgaaagccaaa    880
+
+deaminase1bf_    336 gaaggcgtggtttacgttgaagttcgttatagtccgcatctgctggcaaa    385
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    879 gaaggcgtggtttacgttgaagttcgttatagtccgcatctgctggcaaa    830
+
+deaminase1bf_    386 tagcaaagtggaaccgattccgtggaatcaggcagaaggtgatctgacac    435
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    829 tagcaaagtggaaccgattccgtggaatcaggcagaaggtgatctgacac    780
+
+deaminase1bf_    436 cggatgaagttgttgcactggttggtcagggtctgcaagaaggtgaacgc    485
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    779 cggatgaagttgttgcactggttggtcagggtctgcaagaaggtgaacgc    730
+
+deaminase1bf_    486 gattttggtgttaaagcacgtagcattctgtgttgtatgcgtcatcagcc    535
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    729 gattttggtgttaaagcacgtagcattctgtgttgtatgcgtcatcagcc    680
+
+deaminase1bf_    536 gaattggagcccgaaagtggttgaactgtgcaaaaaataccagcagcaga    585
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    679 gaattggagcccgaaagtggttgaactgtgcaaaaaataccagcagcaga    630
+
+deaminase1bf_    586 ccgttgttgcaattgatctggctggtgatgaaacaattccgggtagcagc    635
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    629 ccgttgttgcaattgatctggctggtgatgaaacaattccgggtagcagc    580
+
+deaminase1bf_    636 ctgctgcctggtcatgttcaggcatatcaagaagcagttaaaagcggtat    685
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    579 ctgctgcctggtcatgttcaggcatatcaagaagcagttaaaagcggtat    530
+
+deaminase1bf_    686 tcatcgtaccgttcatgccggtgaagttggtagcgcagaagttgttaaag    735
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    529 tcatcgtaccgttcatgccggtgaagttggtagcgcagaagttgttaaag    480
+
+deaminase1bf_    736 aagccgttgatattctgaaaaccgaacgtctgggtcatggttatcatacc    785
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    479 aagccgttgatattctgaaaaccgaacgtctgggtcatggttatcatacc    430
+
+deaminase1bf_    786 ctggaagatcaggcactgtataatcgtctgcgtcaagaaaacatgcactt    835
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    429 ctggaagatcaggcactgtataatcgtctgcgtcaagaaaacatgcactt    380
+
+deaminase1bf_    836 tgaaatttgtccgtggtcaagctatctgaccggtgcatggaaaccggata    885
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    379 tgaaatttgtccgtggtcaagctatctgaccggtgcatggaaaccggata    330
+
+deaminase1bf_    886 ccgaacatgccgttattcgtctgaaaaatgatcaggcaaattacagcctg    935
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+deaminase1br_    329 ccgaacatgccgttattcgtctgaaaaatgatcaggcaaattacagcctg    280
+
+deaminase1bf_    936 aataccgatgatccgctgatctttaaangcaccctggataccgattatca    985
+                     ||||||||||||||||||||||||||| ||||||||||||||||||||||
+deaminase1br_    279 aataccgatgatccgctgatctttaaaagcaccctggataccgattatca    230
+
+deaminase1bf_    986 gatgaccaancgtgatatgggttttaccgaagaaganttcaannggctga   1035
+                     ||||||||| |||||||||||||||||||||||||| |||||  ||||||
+deaminase1br_    229 gatgaccaaacgtgatatgggttttaccgaagaagaattcaaacggctga    180
+
+deaminase1bf_   1036 nnnnnaangnnnc--naannnnnnttnctgccgnannnnaaaancnngaa   1083
+                          || |   |   ||      || ...|.| |    |||| |  |||
+deaminase1br_    179 atattaacgcagccaaaagcagctttctgccggaagatgaaaaacgtgaa    130
+
+deaminase1bf_   1084 ctnnngnanc--nnnnntaaannnannngnnatgntcnnaacgcannnna   1131
+                     ||   | | |       ||||   .   |  ... ||  |.||||    .
+deaminase1br_    129 ctgctggatctgctgtataaagcatatggtatgcctccgagcgcaagcgc     80
+
+deaminase1bf_   1132 nntnaanttngtnnnnnnacnnnccnccccnnnnnaattnnnnnnnnnnn   1181
+                       . .| .. .|      .|   .| .||.     |.|.           
+deaminase1br_     79 aggtcagaatctgctcgagcaccaccaccaccaccactgagatccggctg     30
+
+deaminase1bf_   1182 nncnnnnnnannnnnnnnnnnnnnnccnnnnnannnnnnnnnannnnnnn   1231
+                       .      .               ..                       
+deaminase1br_     29 ctaacaaagnccgnaannngnnnnnnnnn---------------------      1
+
+deaminase1bf_   1232 nnnnntnnnngnnngnnnnntnnnnnnnnnnnnnnnnnnnncnnnnnnnn   1281
+                                                                       
+deaminase1br_      0 --------------------------------------------------      1
+
+deaminase1bf_   1282 ngnnnnnnnnnnnnnngnncnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn   1331
+                                                                       
+deaminase1br_      0 --------------------------------------------------      1
+
+deaminase1bf_   1332 nnnnnnnnnnttnnnnnnnn   1351
+                                         
+deaminase1br_      0 --------------------      1
+
+
+#---------------------------------------
+#
+# Conflicts: deaminase1bf_T7 deaminase1br_T7
+#              position base   position base Using
+#                    19  'C'        184  't'   'C'
+#                    21  'A'        186  'c'   'A'
+#                    22  'G'        187  'c'   'G'
+#                    23  'A'        188  'c'   'A'
+#                    42  'G'        207  't'   'G'
+#                    43  'A'        208  't'   'A'
+#                    51  'A'        216  'g'   'A'
+#                    84  'A'        249  't'   'A'
+#                    93  'G'        258  '.'   'G'
+#                   100  'T'        264  'g'   'T'
+#                   112  'T'        276  'g'   'T'
+#                   125  'T'        289  '.'   'T'
+#                   126  'A'        289  '.'   'A'
+#                   138  'A'        300  'c'   'A'
+#                   141  'C'        303  't'   'C'
+#                   153  'C'        315  't'   'C'
+#                   164  'T'        326  '.'   'T'
+#                  1049  '.'       1210  'C'   'C'
+#                  1049  '.'       1211  'A'   'A'
+#                  1061  'c'       1224  'T'   'T'
+#                  1062  't'       1225  'G'   'G'
+#                  1063  'g'       1226  'C'   'C'
+#                  1065  'c'       1228  'G'   'G'
+#                  1094  '.'       1257  'T'   'T'
+#                  1094  '.'       1258  'G'   'G'
+#                  1106  'a'       1271  'T'   'T'
+#                  1113  'a'       1278  'T'   'T'
+#                  1114  't'       1279  'G'   'G'
+#                  1115  'g'       1280  'C'   'C'
+#                  1122  'a'       1287  'G'   'G'
+#                  1131  'a'       1296  'C'   'C'
+#                  1134  't'       1299  'G'   'G'
+#                  1136  'a'       1301  'C'   'C'
+#                  1139  't'       1304  'A'   'A'
+#                  1140  't'       1305  'A'   'A'
+#                  1142  'g'       1307  'C'   'C'
+#                  1150  'a'       1315  'G'   'G'
+#                  1155  'c'       1320  'A'   'A'
+#                  1158  'c'       1323  'A'   'A'
+#                  1161  'c'       1326  'A'   'A'
+#                  1168  'a'       1333  'C'   'C'
+#                  1170  't'       1335  'G'   'G'
+#                  1184  'c'       1349  'A'   'A'
+# 
+#
+#---------------------------------------

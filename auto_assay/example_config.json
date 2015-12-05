@@ -1,0 +1,12 @@
+{
+  "refs": {
+    "Plate":{
+      "type": "96-deep",
+      "store": "cold_4"
+    }
+  },
+
+  "parameters":{
+    "plate": "Plate"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "format": "python",
+  "license": "GPL",
+  "protocols": [
+    {
+      "name": "grow",
+      "description": "Growth cultures",
+      "command_string": "python auto_assay.py",
+      "inputs": {
+          "plate": "container"
+      }, 
+      "preview": {
+         "refs": {
+           "Plate":{
+             "type": "96-deep",
+             "store": "cold_4"
+           }
+         },
+         "parameters":{
+           "plate": "Plate"
+         }
+       }
+    }    
+  ]
+}
